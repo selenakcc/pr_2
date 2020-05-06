@@ -1,0 +1,74 @@
+body{
+    margin: 1px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 1vw;
+}
+
+.navbar{
+    position: relative;
+}
+
+.navbar-top{
+    width: 100%;
+    background-color: #f58300;
+}
+
+.navbar-bottom{
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    border-color: #f58300;
+}
+.navbar-top-list{
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-bottom-list{
+    margin: auto;
+    flex: 1;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    border-color: #f58300;
+}
+
+.search{
+    margin-left: auto;
+    margin-right: 20px;
+    padding-top: 20px;
+    float: right;
+}
+
+.searchbar{
+    width: 80px;
+    border-top: 0;
+    border-bottom: 1px solid white;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    outline: none;
+}
+
+.signup{
+    margin-right: auto;
+    margin-left: 20px;
+    padding-top: 20px;
+    float: left;
+}
+
+.logo{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+
+
